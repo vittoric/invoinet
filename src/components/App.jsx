@@ -2,8 +2,8 @@ import React from "react"
 
 export default function App() {
   return (
-    <h1 className="text-3xl underline">
-      Hello worl!
-    </h1>
+    <div className="px-80 py-80">
+   <img src="https://media1.tenor.com/m/cFkRAYra5ggAAAAd/alone.gif" alt=""  />
+   </div>
   )
 }
