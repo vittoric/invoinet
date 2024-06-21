@@ -4,7 +4,7 @@ import heroImage from '../assets/heroimg.svg';
 const HeroSection = () => {
   return (
     <div className="bg-white py-16 px-4 md:px-8 lg:px-16">
-      <div className="max-w-7xl mx-auto flex flex-col items-center radial-gradient-teal ">
+      <div className="max-w-7xl mx-auto flex flex-col items-center  ">
         <div className="w-full text-center mb-8">
           <h1 className="text-60px md:text-5xl lg:text-6xl corbel-bold  text-black leading-tight mb-7">
             Conciliaciones automatizadas,
@@ -19,7 +19,7 @@ const HeroSection = () => {
             consumo tengan una mano derecha para mejorar su trabajo diario
           </p>
         </div>
-        <div className="w-full flex justify-center mt-10 ">
+        <div className="w-full flex justify-center mt-10 radial-gradient-teal">
           <img src={heroImage} alt="Hero" className="  h-auto" />
         </div>
       </div>

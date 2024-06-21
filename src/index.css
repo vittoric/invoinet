@@ -60,7 +60,7 @@
   align-items: center; /* Centrar verticalmente */
 }
 .radial-gradient-teal {
-  background-image: radial-gradient(ellipse at 53% 54%, teal 0%, transparent 55%);
+  background-image: radial-gradient(ellipse at 54% 45%, teal 0%, transparent 60%);
 
 
 }
