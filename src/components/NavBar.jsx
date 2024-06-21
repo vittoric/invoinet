@@ -33,7 +33,7 @@ const NavBar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="lg:hidden bg-white shadow-md absolute top-20 left-0 w-full h-full px-4 py-4  text-center">
+        <div className="lg:hidden bg-white shadow-md absolute top-40 left-0 w-full h-full px-4 py-4  text-center">
           <a href="#inicio" className="block text-gray-600 hover:text-black roboto-regular text-18px mb-2">Inicio</a>
           <a href="#nosotros" className="block text-gray-600 hover:text-gray-800 roboto-regular text-18px mb-2">Nosotros</a>
           <a href="#page" className="block text-gray-600 hover:text-gray-800 roboto-regular text-18px mb-2">Page</a>

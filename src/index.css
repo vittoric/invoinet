@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Corbel-Bold';
+  src: url('/src/assets/CorbelFont/Corbel\ Bold.ttf') format('truetype');
+}
+
 
 /*------------------------------------------------ NavBar CSS -------------------*/
 /* NavBar Button height */
@@ -10,13 +15,23 @@
 }
 
 /*Text sizes*/
-.text-18px {
-  font-size: 18px;
-}
 .text-16px {
   font-size: 16px;
 }
+.text-18px {
+  font-size: 18px;
+}
+.text-20px {
+  font-size: 20px;
+}
+.text-60px {
+  font-size: 60px;
+}
 
+/*Custom colors*/
+.TealDark{
+  color: #08838C;
+}
 /* Roboto Font Weights */
 .roboto-regular {
   font-family: "Roboto", sans-serif;
@@ -28,4 +43,19 @@
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+
+/*Corbel font*/
+.corbel-bold {
+  font-family: 'Corbel-Bold', sans-serif;
+}
+
+.heroImg {
+  max-width: 1400px;
+}
+
+.image-container {
+  display: flex; /* Activar Flexbox */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
 }
