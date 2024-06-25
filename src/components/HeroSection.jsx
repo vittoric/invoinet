@@ -13,10 +13,10 @@ const HeroSection = () => {
 
             para las <br />áreas de cobranzas y tesorería
           </h1>
-          <p className="text-black text-[14px]  md:text-[20px] roboto-regular ">
+          <p className="text-black text-[14px]  md:text-[20px] roboto-light">
             Hacemos que los equipos de cobranzas de empresas de bienes de
           </p>
-          <p className="text-black text-[14px]  md:text-[20px] roboto-regular ">
+          <p className="text-black text-[14px]  md:text-[20px] roboto-light ">
             consumo tengan una mano derecha para mejorar su trabajo diario
           </p>
 

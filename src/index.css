@@ -31,6 +31,7 @@
   font-size: 60px;
 }
 
+
 /*Custom colors*/
 .TealDark{
   color: #08838C;
@@ -45,6 +46,12 @@
 .roboto-medium {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   font-style: normal;
 }
 

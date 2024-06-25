@@ -8,7 +8,7 @@ const logos = [nestleLogo, exxonLogo, revlonLogo, nestleLogo, exxonLogo, revlonL
 
 const LogosComp = () => {
   return (
-    <div className="bg-white py-8 px-4">
+    <div className="bg-white py-8 px-4 mt-24">
       <div className="max-w-7xl mx-auto text-center mb-12">
         <p className="text-black text-lg roboto-regular text-[14px] md:text-[24px]">
           +40 empresas de bienes de consumo de Latinoamérica confían en InvoiNet:
