@@ -1,16 +1,16 @@
 import React from 'react';
-import nestleLogo from '../assets/nestle.png'; // Adjust the paths to your logo images
-import exxonLogo from '../assets/exonmobil.png';
-import revlonLogo from '../assets/revlon.png';
+import nestleLogo from '../assets/nestle.svg'; // Adjust the paths to your logo images
+import exxonLogo from '../assets/exxon.svg';
+import revlonLogo from '../assets/revlon.svg';
 import Marquee from "react-fast-marquee";
 
 const logos = [nestleLogo, exxonLogo, revlonLogo, nestleLogo, exxonLogo, revlonLogo]; // Add logos as needed
 
 const LogosComp = () => {
   return (
-    <div className="bg-white py-8">
+    <div className="bg-white py-8 px-4">
       <div className="max-w-7xl mx-auto text-center mb-12">
-        <p className="text-black text-lg roboto-regular subheading">
+        <p className="text-black text-lg roboto-regular text-[14px] md:text-[24px]">
           +40 empresas de bienes de consumo de Latinoamérica confían en InvoiNet:
         </p>
       </div>
