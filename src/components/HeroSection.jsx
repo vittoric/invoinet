@@ -6,7 +6,7 @@ const HeroSection = () => {
     <div className="bg-white py-16 px-4 md:px-8 lg:px-16">
       <div className="max-w-7xl mx-auto flex flex-col items-center  ">
         <div className="w-full text-center mb-8">
-          <h1 className="text-60px md:text-5xl lg:text-6xl corbel-bold  text-black leading-tight mb-7">
+          <h1 className="text-4xl sm:text-5xl  md:text-5xl lg:text-60px corbel-bold  text-black leading-tight mb-7">
             Conciliaciones automatizadas,
             <br />
             <span className="TealDark">gestión ágil de transacciones </span>

@@ -10,7 +10,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md h-32 flex items-center">
+    <nav className="bg-white h-32 flex items-center">
       <div className="container mx-auto px-4 py-2 flex items-center justify-between">
         <div className="flex items-center">
           <img src={logo} alt="InvoiNet" className="h-10 mr-3" />
