@@ -7,11 +7,11 @@ const ComparisonSection = () => {
   return (
     <div className="bg-white py-16 px-4 md:px-8 lg:px-16 m-4 mt-24">
       <div className="max-w-[1520px] mx-auto flex flex-col md:flex-row items-center">
-        <div className="w-full md:w-1/2 text-center md:text-left mb-8 md:mb-0 mr-8">
+        <div className="w-full md:w-1/2 text-center md:text-left mb-8 md:mb-0 ">
           <h2 className="text-2xl  lg:text-[40px] text-black  mb-4 corbel-bold leading-tight">
             Grandes volúmenes de transacciones de pagos, pocas personas en tu 
             equipo de cobranzas 
-            <span className="text-greenPrimary leading-tight">¿Cómo ser más eficiente?</span>
+            <span className="text-greenPrimary leading-tight"> ¿Cómo ser más eficiente?</span>
           </h2>
           <p className="text-black text-[20px] roboto-light">
             Para cumplir con los objetivos de liquidez, los líderes deben 
