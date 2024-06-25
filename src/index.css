@@ -24,6 +24,9 @@
 .text-20px {
   font-size: 20px;
 }
+.subheading {
+  font-size: 20px;
+}
 .text-60px {
   font-size: 60px;
 }
@@ -63,24 +66,5 @@
   background-image: radial-gradient(ellipse at 54% 45%, teal 0%, transparent 60%);
 
 
-}
-/*-------------Marquee Effect------------------*/
-@keyframes marquee {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-.marquee {
-  display: flex;
-  width: max-content;
-  animation: marquee 15s linear infinite;
-}
-
-.marquee:hover {
-  animation-play-state: paused;
 }
 
