@@ -37,6 +37,13 @@
   color: #08838C;
 }
 /* Roboto Font Weights */
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .roboto-regular {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -49,11 +56,13 @@
   font-style: normal;
 }
 
-.roboto-light {
+.roboto-bold {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   font-style: normal;
 }
+
+
 
 /*Corbel font*/
 .corbel-bold {

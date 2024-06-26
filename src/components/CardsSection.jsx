@@ -24,13 +24,22 @@ const CardsSection = () => {
 
     return (
 
-        <div className="flex flex-wrap justify-center ">
-            <div className="w-[800px] inline">
-                <h2 className="text-2xl  lg:text-[40px] text-black  mb-4 corbel-bold leading-tight">
-                    Grandes volúmenes de transacciones de pagos, pocas personas en tu
-                    equipo de cobranzas
-                    <span className="text-greenPrimary leading-tight"> ¿Cómo ser más eficiente?</span>
+        <div className="flex flex-wrap justify-center">
+
+            <div className='mb-24'>
+                <h2 className="text-2xl  lg:text-[40px] text-black  mb-4 corbel-bold leading-tight text-center">
+                    Nuestras soluciones pueden
+                    <span className="text-greenPrimary leading-tight"> automatizar +90%
+                    </span>
                 </h2>
+                <h2 className="text-2xl  lg:text-[40px] text-black  mb-4 corbel-bold leading-tight text-center">
+                    <span className="text-greenPrimary leading-tight">
+                        de los procesos de cobranzas
+                    </span> y tesorería
+                </h2>
+                <p className="text-black text-[20px] roboto-light">
+                    Disminuye la carga excesiva de trabajo operativo en tus áreas con nuestra soluciones:
+                </p>
             </div>
             {cardsData.map((cardData, index) => (
                 <Card key={index} {...cardData} />

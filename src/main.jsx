@@ -5,6 +5,10 @@ import HeroSection from './components/HeroSection.jsx';
 import LogosComp from './components/LogosComp.jsx';
 import ComparisonSection from './components/ComparisonSection';
 import CardsSection from './components/CardsSection';
+import SupportSection from './components/SupportSection';
+import VisibilitySection from './components/VisibilitySection';
+import RpaSection from './components/RpaSection.jsx';
+import TrustSection from './components/TrustSection';
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,6 +18,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <LogosComp />
     <ComparisonSection />
     <CardsSection />
+    <SupportSection />
+    <VisibilitySection />
+    <RpaSection />
+    <TrustSection />
     
 
   </React.StrictMode>,
