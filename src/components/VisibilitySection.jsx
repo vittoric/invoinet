@@ -1,5 +1,5 @@
 import React from 'react';
-import invoinetFlgs from '../assets/invoinetflgs.svg'; // Asegúrate de que la ruta a la imagen es correcta
+import invoinetFlgs from '../assets/invoinetflgs.svg';
 
 const VisibilitySection = () => {
   return (

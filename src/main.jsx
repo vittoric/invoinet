@@ -9,6 +9,7 @@ import SupportSection from './components/SupportSection';
 import VisibilitySection from './components/VisibilitySection';
 import RpaSection from './components/RpaSection.jsx';
 import TrustSection from './components/TrustSection';
+import ProcessSection from './components/ProcessSection';
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -22,7 +23,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <VisibilitySection />
     <RpaSection />
     <TrustSection />
-    
+    <ProcessSection />
+
 
   </React.StrictMode>,
 )
