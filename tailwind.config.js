@@ -14,7 +14,9 @@ export default {
       bluePrimary:'#25588D',
       greenPrimary: '#008D84',
       personalGrey: '#33312B',
-      myBlack: '#33312B'
+      myBlack: '#33312B',
+      bluePrimaryTr:'#75B7D0',
+      greenPrimaryTr: '#7BBFC5',
     },},
   },
   plugins: [],

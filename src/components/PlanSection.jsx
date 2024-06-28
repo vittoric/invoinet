@@ -42,7 +42,10 @@ const PlanSection = () => {
                 ))}
               </ul>
               <div className="mt-auto">
-                <button className="w-full md:w-1/2 inline-flex items-center justify-center mt-8 px-4 py-2 border border-black text-base leading-6 roboto-light rounded-full text-black bg-white hover:bg-gradient-to-r from-bluePrimary to-greenPrimary hover:text-white hover:border-white focus:outline-none focus:shadow-outline transition ease-in-out duration-150">
+                <button className="w-full md:w-1/2 inline-flex items-center justify-center mt-8 px-4 py-2 border
+                 border-black text-base leading-6 roboto-light rounded-full text-black bg-white 
+                 hover:bg-gradient-to-r from-bluePrimary to-greenPrimary hover:text-white hover:border-white 
+                 focus:outline-none focus:shadow-outline transition ease-in-out duration-150">
                   Conversa con un experto
                 </button>
               </div>

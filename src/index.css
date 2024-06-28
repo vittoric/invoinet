@@ -81,3 +81,14 @@
 .radial-gradient-teal {
   background-image: radial-gradient(ellipse at 54% 45%, teal 0%, transparent 60%);
 }
+/*
+.bg-radial {
+  background: radial-gradient(ellipse at 64% 35% , #008D84 0%, #25588D 60%, transparent 80%);
+  bg-gradient-to-tr from-white via-bluePrimary to-greenPrimary
+}
+*/
+
+.bg-radial {
+  background: radial-gradient(ellipse at 80% 25%, #008D84, #FFFFFF, transparent 200%);
+  
+}
