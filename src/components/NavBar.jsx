@@ -19,10 +19,12 @@ const NavBar = () => {
           <a href="#inicio" className="text-gray-600 hover:text-black roboto-regular text-18px">Inicio</a>
           <a href="#nosotros" className="text-gray-600 hover:text-gray-800 roboto-regular text-18px">Nosotros</a>
           <a href="#page" className="text-gray-600 hover:text-gray-800 roboto-regular text-18px">Page</a>
-          <button className="bg-gradient-to-b from-customTealLight to-customTealDark text-white px-6 py-2 custom-height rounded-full text-16px">
+          <button className="bg-gradient-to-b from-customTealLight to-customTealDark text-white px-6 py-2 custom-height rounded-full text-16px
+          transition transform hover:scale-105 hover:shadow-lg focus:outline-none focus:shadow-outline duration-300 ease-in-out">
             Conversa con un experto
           </button>
-          <button className="border border-gray-400 text-gray-600 px-6 py-2 custom-height rounded-full text-16px">
+          <button className="border border-gray-400 text-gray-600 px-6 py-2 custom-height rounded-full text-16px
+          transition transform hover:scale-105 hover:shadow-lg focus:outline-none focus:shadow-outline duration-300 ease-in-out">
             Iniciar sesión
           </button>
         </div>

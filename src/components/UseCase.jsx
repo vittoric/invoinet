@@ -30,9 +30,12 @@ const UseCase = () => {
           </h2>
         </div>
         <div>
-          <button className="w-full  items-center justify-center mt-8 px-6 py-4  text-base leading-6 roboto-light rounded-full   border border-white hover:border-black bg-greenPrimary hover:bg-white text-white  hover:text-black focus:outline-none focus:shadow-outline transition ease-in-out duration-150">
-            Agenda una reunion
-          </button>
+        <button className="w-full items-center justify-center mt-8 px-6 py-4 text-base leading-6 roboto-light rounded-full border
+         border-white bg-gradient-to-b from-customTealLight to-customTealDark text-white 
+         transition transform hover:scale-105 hover:shadow-lg focus:outline-none focus:shadow-outline duration-300 ease-in-out">
+  Agenda una reunión
+</button>
+
         </div>
       </div>
     </>

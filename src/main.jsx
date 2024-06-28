@@ -13,6 +13,7 @@ import ProcessSection from './components/ProcessSection';
 import PlanSection from './components/PlanSection';
 import TestimonialsSection from './components/TestimonialsSection.jsx';
 import UseCase from './components/UseCase.jsx';
+import Footer from './components/Footer.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -30,6 +31,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <PlanSection />
     <TestimonialsSection />
     <UseCase />
+    <Footer />
 
 
   </React.StrictMode>,
