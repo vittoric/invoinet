@@ -22,26 +22,30 @@ const PlanSection = () => {
   ];
 
   return (
-    <div className=" bg-gradient-to-r from-bluePrimary  to-greenPrimary py-60">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
-        <h2 className="text-3xl leading-9 corbel-bold text-white sm:text-4xl sm:leading-10">
-          Elige un plan base que se ajuste al contexto de tu empresa
+    <div className="bg-gradient-to-r from-bluePrimary to-greenPrimary py-16 md:py-24 lg:py-60">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl leading-9 corbel-bold text-white sm:text-4xl sm:leading-10 text-center">
+          Elige un plan base que se ajuste <br className="hidden lg:block" /> al contexto de tu empresa
         </h2>
-        <div className="mt-10 grid gap-6 lg:grid-cols-2 sm:grid-cols-1 h-[430px] ">
+        <div className="mt-10 grid gap-6 lg:grid-cols-2 sm:grid-cols-1">
           {plans.map((plan, index) => (
-            <div key={index} className="relative bg-white border border-gray-200 p-20 rounded-lg shadow-sm">
-              <h3 className="text-[40px] leading-10 corbel-bold text-black">{plan.title}</h3>
-              <ul className="mt-4 space-y-2">
+            <div key={index} className="relative bg-white border border-gray-200 p-6 md:p-10 lg:p-20 rounded-lg shadow-sm flex flex-col">
+              <h3 className="text-3xl md:text-4xl lg:text-[40px] leading-6 md:leading-8 lg:leading-10 corbel-bold text-black">
+                {plan.title}
+              </h3>
+              <ul className="mt-4 space-y-2 flex-grow">
                 {plan.features.map((feature, idx) => (
                   <li key={idx} className="flex items-start">
                     <span className="mr-2 text-black">→</span>
-                    <p className="text-black roboto-light">{feature}</p>
+                    <p className="text-base md:text-lg text-black roboto-light">{feature}</p>
                   </li>
                 ))}
               </ul>
-              <button className="mt-6 w-1/2 inline-flex items-left justify-center px-4 py-2 border  border-black text-base leading-6 roboto-light rounded-full text-black bg-white hover:bg-gray-50 focus:outline-none focus:shadow-outline transition ease-in-out duration-150">
-                Conversa con un experto
-              </button>
+              <div className="mt-auto">
+                <button className="w-full md:w-1/2 inline-flex items-center justify-center mt-8 px-4 py-2 border border-black text-base leading-6 roboto-light rounded-full text-black bg-white hover:bg-gradient-to-r from-bluePrimary to-greenPrimary hover:text-white hover:border-white focus:outline-none focus:shadow-outline transition ease-in-out duration-150">
+                  Conversa con un experto
+                </button>
+              </div>
             </div>
           ))}
         </div>

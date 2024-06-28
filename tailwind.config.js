@@ -12,7 +12,9 @@ export default {
       secondary2: '#0075BC',
       secondary3: '#5D96D0',
       bluePrimary:'#25588D',
-      greenPrimary: '#008D84'
+      greenPrimary: '#008D84',
+      personalGrey: '#33312B',
+      myBlack: '#33312B'
     },},
   },
   plugins: [],

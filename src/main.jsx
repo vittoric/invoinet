@@ -11,6 +11,8 @@ import RpaSection from './components/RpaSection.jsx';
 import TrustSection from './components/TrustSection';
 import ProcessSection from './components/ProcessSection';
 import PlanSection from './components/PlanSection';
+import TestimonialsSection from './components/TestimonialsSection.jsx';
+import UseCase from './components/UseCase.jsx';
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -26,6 +28,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <TrustSection />
     <ProcessSection />
     <PlanSection />
+    <TestimonialsSection />
+    <UseCase />
 
 
   </React.StrictMode>,
