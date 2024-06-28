@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import sinInvoinet from '../assets/sininvoinet.svg';
+import ConInvoinet from '../assets/Con_invoinet.svg';
 
 const ComparisonSection = () => {
   const [isInvoinet, setIsInvoinet] = useState(false);
@@ -7,7 +8,7 @@ const ComparisonSection = () => {
   return (
     <div className="bg-white py-16 px-4 md:px-8 lg:px-16 m-4 mt-24">
       <div className="max-w-[1520px] mx-auto flex flex-col md:flex-row items-center">
-        <div className="w-full md:w-1/2 text-center md:text-left mb-8 md:mb-0 ">
+        <div className="w-full md:w-1/2 text-center md:text-left mx-12 mb-8 md:mb-0 ">
           <h2 className="text-2xl  lg:text-[40px] text-black  mb-4 corbel-bold leading-tight">
             Grandes volúmenes de transacciones de pagos, pocas personas en tu 
             equipo de cobranzas 
@@ -36,15 +37,15 @@ const ComparisonSection = () => {
             </button>
             </button>
           </div>
-          <div className="border border-greenPrimary p-4 rounded-lg w-5/6">
+          <div className="border border-greenPrimary p-3  rounded-lg w-full">
             {isInvoinet ? (
               <div className="flex justify-center">
-                <img src="https://i.pinimg.com/originals/77/8c/18/778c181bca9c76d2763bca0234af2d75.gif" alt="" />
+                <img src={ConInvoinet} alt="" className='w-full'/>
                 {/* Add your content for "Con Invoinet" here */}
               </div>
             ) : (
               <div className="flex justify-center">
-                <img src={sinInvoinet} alt="" />
+                <img src={sinInvoinet} alt="" className='w-full'/>
                 {/* Add your content for "Sin Invoinet" here */}
               </div>
             )}

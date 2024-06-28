@@ -20,7 +20,7 @@ import CardsSectionPrueba from './components/CardsSectionPrueba';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   {/* <NavBar />
+    <NavBar />
     <HeroSection />
     <LogosComp />
     <ComparisonSection />
@@ -33,8 +33,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <PlanSection />
     <TestimonialsSection />
     <UseCase />
-    <Footer />*/} 
-    <CardsSectionPrueba />
+    <Footer />
 
 
   </React.StrictMode>,
