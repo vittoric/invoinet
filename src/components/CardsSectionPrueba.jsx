@@ -10,8 +10,11 @@ import File from '../assets/document-copy.svg';
 import Recipi from '../assets/receipt-edit.svg';
 import Clip from '../assets/clipboard-tick.svg';
 import Chart from '../assets/chart.svg';
-import Portal from '../assets/Portal_pagos_2 3.svg';
+import Portal from '../assets/documentos_fiscales.svg';
 import Pagos from '../assets/Portal_pagos_2 1.svg';
+import Declar from '../assets/capacidad_declarar_pagos.svg';
+import Comprobante from '../assets/carga_comprobantes.svg';
+import Cobros from '../assets/control_cobros.svg';
 
 const CardsSection = () => {
     const [isCards, setIsCards] = useState(false);
@@ -45,17 +48,17 @@ const CardsSection = () => {
     const cardsData2 = [
 
         {
-            image: Skeme,
+            image: Portal,
             icon: File,
             text: 'Publica documentos fiscales (Ej. Facturas) automáticamente y saldos pendientes de pagos'
         },
         {
-            image: Skeme,
+            image: Declar,
             icon: Recipi,
             text: 'Capacidad de declarar pagos y conciliar cobros físicos o digitales'
         },
         {
-            image: Skeme,
+            image: Comprobante,
             icon: Clip,
             text: 'Carga de comprobantes de retención impositiva'
         },
@@ -65,7 +68,7 @@ const CardsSection = () => {
             text: 'Gestión de disputas comerciales a través de la plataforma para realizar cobranzas preventivas'
         },
         {
-            image: Skeme,
+            image: Cobros,
             icon: Chart,
             text: 'Control de cobros dentro de las reglas de negocio de tu empresa'
         },
@@ -114,33 +117,34 @@ const CardsSection = () => {
 
 
 
-            <div className="flex flex-wrap justify-center mx-20">
-                {isCards ? (
-                    <>
-                        <div className='mb-24 text-center block'>
-                            <p className="text-black text-[20px] roboto-light">
-                                Toma control de los pagos y cobros de tus clientes e integra los diversos
-                                medios de pago en una plataforma.
-                            </p>
-                        </div>
 
+            {isCards ? (
+                <>
+                    <div className='m-6 text-center block'>
+                        <p className="text-black text-[20px] roboto-light block">
+                            Toma control de los pagos y cobros de tus clientes e integra los diversos
+                            medios de pago en una plataforma.
+                        </p>
+                    </div>
+                    <div className="flex flex-wrap justify-center mx-20">
                         {cardsData2.map((cardData, index) => (
                             <Card key={index} {...cardData} />
                         ))}
-                    </>
+                    </div>
+                </>
 
-                ) : (
-                    <>
+            ) : (
+                <>
 
-                        <div className='mb-24 text-center'>
-                            <p className="text-black text-[20px] roboto-light">
-                                Si tu empresa recibe avisos de pagos y concentra grandes volúmenes de
-                                facturas con pocos deudores, conoce cómo esta solución puede ayudarte en
-                                tus procesos de cobranzas:
-                            </p>
-                        </div>
+                    <div className='m-6 text-center'>
+                        <p className="text-black text-[20px] roboto-light">
+                            Si tu empresa recibe avisos de pagos y concentra grandes volúmenes de <br />
+                            facturas con pocos deudores, conoce cómo esta solución puede ayudarte en
+                            tus procesos de cobranzas:
+                        </p>
+                    </div>
 
-
+                    <div className="flex flex-wrap justify-center mx-20">
                         {/*Card personalizado por la esquema de Invoinet*/}
 
 
@@ -160,9 +164,10 @@ const CardsSection = () => {
                         {cardsData.map((cardData, index) => (
                             <Card key={index} {...cardData} />
                         ))}
-                    </>
-                )}
-            </div>
+                    </div>
+                </>
+            )}
+
 
         </>
     );
